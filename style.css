@@ -1,0 +1,56 @@
+.card{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #635d5d;
+    background-color: pink;
+    box-shadow: 2px 2px 12px black;
+    margin: 32px;
+}
+img{
+    
+width: 197px;
+    
+height: 245px;
+    
+padding-left: 32px;
+    
+padding-top: 11px;
+}
+.title{
+    
+font-size: 25px;
+    
+padding-top: 7px;
+    
+box-sizing: border-box;
+    
+padding-left: 8px;
+    
+color: white;
+}
+.cardbody{
+    
+background-color: black;
+    
+height: 237px;
+}
+p{
+    
+color: white;
+}
+.description{
+    
+text-align: justify;
+    
+padding: 20px;
+}
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f5053;
+}
+.card:hover{
+    box-shadow: 12px 12px 18px white;
+}
